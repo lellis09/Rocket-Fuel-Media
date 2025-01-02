@@ -1,13 +1,17 @@
 import React from 'react'
-import Hero from '../components/hero'
-import Features from '../components/Features'
+import In_Hero from '../components/In_Hero'
+import Features from '../components/In_Features'
+import About from '../components/In_About'
+import In_Values from '../components/In_Values'
 
 
 function Home() {
   return(
     <main>
-      <Hero />
+      <In_Hero />
+      <About />
       <Features />
+      <In_Values />
     </main>
    
 
